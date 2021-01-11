@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="salon.xsl"?>
+
+<salon>
+	<auto>
+		<marka n='bmw'>
+			BMW
+		</marka>
+		<model>
+			M5
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			600.000
+		</cena>
+		<moc>
+			560
+		</moc>
+		<miejsca>
+			5
+		</miejsca>
+		<pic url="photos/0.jpg" />
+	</auto>
+	<auto>
+		<marka n='bmw'>
+			BMW
+		</marka>
+		<model>
+			i8
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			550.000
+		</cena>
+		<moc>
+			240
+		</moc>
+		<miejsca>
+			2
+		</miejsca>
+		<pic url="photos/1.jpg" />
+	</auto>
+	<auto>
+		<marka n='bmw'>
+			BMW
+		</marka>
+		<model>
+			340i
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			275.000
+		</cena>
+		<moc>
+			370
+		</moc>
+		<miejsca>
+			5
+		</miejsca>
+		<pic url="photos/2.jpg" />
+	</auto>
+	<auto>
+		<marka n='mercedes'>
+			Mercedes
+		</marka>
+		<model>
+			GLA45S
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			300.000
+		</cena>
+		<moc>
+			421
+		</moc>
+		<miejsca>
+			5
+		</miejsca>
+		<pic url="photos/3.jpg" />
+	</auto>
+	<auto>
+		<marka n='mercedes'>
+			Mercedes
+		</marka>
+		<model>
+			S500
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			550.000
+		</cena>
+		<moc>
+			450
+		</moc>
+		<miejsca>
+			5
+		</miejsca>
+		<pic url="photos/4.jpg" />
+	</auto>
+	<auto>
+		<marka n='mercedes'>
+			Mercedes
+		</marka>
+		<model>
+			G63AMG
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			775.000
+		</cena>
+		<moc>
+			585
+		</moc>
+		<miejsca>
+			5
+		</miejsca>
+		<pic url="photos/5.jpg" />
+	</auto>
+	<auto>
+		<marka n='audi'>
+			Audi
+		</marka>
+		<model>
+			SQ7
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			460.000
+		</cena>
+		<moc>
+			505
+		</moc>
+		<miejsca>
+			5
+		</miejsca>
+		<pic url="photos/6.jpg" />
+	</auto>
+	<auto>
+		<marka n='audi'>
+			Audi
+		</marka>
+		<model>
+			R8
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			935.000
+		</cena>
+		<moc>
+			620
+		</moc>
+		<miejsca>
+			2
+		</miejsca>
+		<pic url="photos/7.jpg" />
+	</auto>
+	<auto>
+		<marka n='audi'>
+			Audi
+		</marka>
+		<model>
+			A6
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			295.000
+		</cena>
+		<moc>
+			320
+		</moc>
+		<miejsca>
+			5
+		</miejsca>
+		<pic url="photos/8.jpg" />
+	</auto>
+	<auto>
+		<marka n='ford'>
+			Ford
+		</marka>
+		<model>
+			Mustang
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			230.000
+		</cena>
+		<moc>
+			450
+		</moc>
+		<miejsca>
+			4
+		</miejsca>
+		<pic url="photos/9.jpg" />
+	</auto>
+	<auto>
+		<marka n='ford'>
+			Ford
+		</marka>
+		<model>
+			Ranger Raptor
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			150.000
+		</cena>
+		<moc>
+			213
+		</moc>
+		<miejsca>
+			5
+		</miejsca>
+		<pic url="photos/10.jpg" />
+	</auto>
+	<auto>
+		<marka n='ford'>
+			Ford
+		</marka>
+		<model>
+			Mondeo Vignale
+		</model>
+		<rok>
+			2020
+		</rok>
+		<cena>
+			160.000
+		</cena>
+		<moc>
+			190
+		</moc>
+		<miejsca>
+			5
+		</miejsca>
+		<pic url="photos/11.jpg" />
+	</auto>	
+</salon>
