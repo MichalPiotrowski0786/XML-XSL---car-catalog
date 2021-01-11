@@ -1,0 +1,88 @@
+//DTD
+
+<?xml encoding="UTF-8"?>
+
+<!ELEMENT salon (auto)+>
+<!ATTLIST salon
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT auto (marka,model,rok,cena,moc,miejsca,pic)>
+<!ATTLIST auto
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT marka (#PCDATA)>
+<!ATTLIST marka
+  xmlns CDATA #FIXED ''
+  n NMTOKEN #REQUIRED>
+
+<!ELEMENT model (#PCDATA)>
+<!ATTLIST model
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT rok (#PCDATA)>
+<!ATTLIST rok
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT cena (#PCDATA)>
+<!ATTLIST cena
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT moc (#PCDATA)>
+<!ATTLIST moc
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT miejsca (#PCDATA)>
+<!ATTLIST miejsca
+  xmlns CDATA #FIXED ''>
+
+<!ELEMENT pic EMPTY>
+<!ATTLIST pic
+  xmlns CDATA #FIXED ''
+  url CDATA #REQUIRED>
+
+//XSD
+
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="salon">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="auto"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="auto">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="marka"/>
+        <xs:element ref="model"/>
+        <xs:element ref="rok"/>
+        <xs:element ref="cena"/>
+        <xs:element ref="moc"/>
+        <xs:element ref="miejsca"/>
+        <xs:element ref="pic"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="marka">
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:NCName">
+          <xs:attribute name="n" use="required" type="xs:NCName"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="model" type="xs:string"/>
+  <xs:element name="rok" type="xs:integer"/>
+  <xs:element name="cena" type="xs:decimal"/>
+  <xs:element name="moc" type="xs:integer"/>
+  <xs:element name="miejsca" type="xs:integer"/>
+  <xs:element name="pic">
+    <xs:complexType>
+      <xs:attribute name="url" use="required"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+
+
